@@ -1,0 +1,58 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "mini consola",
+      "precio": 20,
+      "imagen": "imagenes/consola-mini.webp"
+    },
+    {
+      "id": "2",
+      "nombre": "control con pantalla",
+      "precio": 5,
+      "imagen": "imagenes/control-pantalla-gamer.webp"
+    },
+    {
+      "id": "3",
+      "nombre": "DS",
+      "precio": 10,
+      "imagen": "imagenes/ds.jpg"
+    },
+    {
+      "id": "4",
+      "nombre": "Ninteno mini",
+      "precio": 5,
+      "imagen": "imagenes/nintendo-mini.jpg"
+    },
+    {
+      "id": "5",
+      "nombre": "Ps5",
+      "precio": 5,
+      "imagen": "imagenes/playstation5.jpg"
+    },
+    {
+      "id": "6",
+      "nombre": "PSP",
+      "precio": 10,
+      "imagen": "imagenes/psp.jpg"
+    },
+    {
+      "id": "7",
+      "nombre": "Nintendo switch",
+      "precio": 20,
+      "imagen": "imagenes/switch.webp"
+    },
+    {
+      "id": "8",
+      "nombre": "Xbox",
+      "precio": 5,
+      "imagen": "imagenes/xbox.jpg"
+    },
+    {
+      "id": "9",
+      "nombre": "Consola play3",
+      "precio": 10,
+      "imagen": "imagenes/Playstation3.jpg"
+    }
+  ]
+}

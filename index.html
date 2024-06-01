@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <h1 class="titulo_encabezado_pie_de_pagina">AluraGeek</h1>
+    </header>
+
+    <main class="main-contenido"><!--Inicio de productos-->
+        <section class="section-productos">
+            <h2 class="titulo-productos">Mis Productos</h2>
+            <div class="producto-container" data-producto> </main>
+
+                 <!--<div class="producto-item">
+                    <img class="producto-imagen" src="imagenes/Playstation3.jpg" alt="Playstation3">
+                    <p class="producto-descripcion">Consola play3</p>
+                    <p class="producto-precio">$ 20</p>
+                    <button class="icono-borrar" data-id="${id}">
+                        <div class="icono-basurero">
+                            <img src="imagenes/🦆 icon _trash 2_.png" alt="Eliminar">
+                        </div>
+                    </button>
+                </div>
+                <div class="producto-item">
+                    <img class="producto-imagen" src="imagenes/consola-mini.webp" alt="mini-consola">
+                    <p class="producto-descripcion">mini consola</p>
+                    <p class="producto-precio">$ 20</p>
+                    <button class="icono-borrar" data-id="${id}">
+                        <div class="icono-basurero">
+                            <img src="imagenes/🦆 icon _trash 2_.png" alt="Eliminar">
+                        </div>
+                    </button>
+                </div>
+                <div class="producto-item">
+                    <img class="producto-imagen" src="imagenes/control-pantalla-gamer.webp" alt="control pantalla">
+                    <p class="producto-descripcion">control con pantalla</p>
+                    <p class="producto-precio">$ 20</p>
+                    <button class="icono-borrar" data-id="${id}">
+                        <div class="icono-basurero">
+                            <img src="imagenes/🦆 icon _trash 2_.png" alt="Eliminar">
+                        </div>
+                    </button>
+                </div>
+                <div class="producto-item">
+                    <img class="producto-imagen" src="imagenes/ds.jpg" alt="ntds">
+                    <p class="producto-descripcion">Nintendo DS</p>
+                    <p class="producto-precio">$ 20</p>
+                    <button class="icono-borrar" data-id="${id}">
+                        <div class="icono-basurero">
+                            <img src="imagenes/🦆 icon _trash 2_.png" alt="Eliminar">
+                        </div>
+                    </button>
+                </div>
+                <div class="producto-item">
+                    <img class="producto-imagen" src="imagenes/nintendo-mini.jpg" alt="mini nt">
+                    <p class="producto-descripcion">Ninteno mini</p>
+                    <p class="producto-precio">$ 20</p>
+                    <button class="icono-borrar" data-id="${id}">
+                        <div class="icono-basurero">
+                            <img src="imagenes/🦆 icon _trash 2_.png" alt="Eliminar">
+                        </div>
+                    </button>
+                </div>
+                <div class="producto-item">
+                    <img class="producto-imagen" src="imagenes/playstation5.jpg" alt="play">
+                    <p class="producto-descripcion">Ps5</p>
+                    <p class="producto-precio">$ 20</p>
+                    <button class="icono-borrar" data-id="${id}">
+                        <div class="icono-basurero">
+                            <img src="imagenes/🦆 icon _trash 2_.png" alt="Eliminar">
+                        </div>
+                    </button>
+                </div>
+                <div class="producto-item">
+                    <img class="producto-imagen" src="imagenes/psp.jpg" alt="nt psp">
+                    <p class="producto-descripcion">PSP</p>
+                    <p class="producto-precio">$ 20</p>
+                    <button class="icono-borrar" data-id="${id}">
+                        <div class="icono-basurero">
+                            <img src="imagenes/🦆 icon _trash 2_.png" alt="Eliminar">
+                        </div>
+                    </button>
+                </div>
+                <div class="producto-item">
+                    <img class="producto-imagen" src="imagenes/switch.webp" alt="nt switch">
+                    <p class="producto-descripcion">Nintendo switch</p>
+                    <p class="producto-precio">$ 20</p>
+                    <button class="icono-borrar" data-id="${id}">
+                        <div class="icono-basurero">
+                            <img src="imagenes/🦆 icon _trash 2_.png" alt="Eliminar">
+                        </div>
+                    </button>
+                </div>
+                <div class="producto-item">
+                    <img class="producto-imagen" src="imagenes/xbox.jpg" alt="consola xbox">
+                    <p class="producto-descripcion">Xbox</p>
+                    <p class="producto-precio">$ 20</p>
+                    <button class="icono-borrar" data-id="${id}">
+                        <div class="icono-basurero">
+                            <img src="imagenes/🦆 icon _trash 2_.png" alt="Eliminar">
+                        </div>
+                    </button>
+                </div>
+            </div>-->
+        </section>
+
+        <!--Inicio sección formulario-->
+        <section class="section-formulario">
+            <h2 class="titulo-formulario">Agregar Producto</h2>
+
+            <!--Formulario-->
+            <form class="formulario-agregar-producto" data-form>
+                <fieldset class="formulario-producto">
+                    <input name="nombre" id="nombre" class="input-producto" placeholder="Nombre" type="text"
+                        data-nombre />
+                </fieldset>
+                <fieldset class="formulario-producto">
+                    <input name="precio" id="precio" class="input-producto" placeholder="Precio" type="text"
+                        data-precio />
+                </fieldset>
+                <fieldset class="formulario-producto">
+                    <input name="imagen" id="imagen" class="input-producto" placeholder="Imagen" type="text"
+                        data-imagen />
+                </fieldset>
+                <div class="formulario-botones">
+                    <button type="submit" class="boton-enviar" id="btn">Enviar</button>
+                    <button type="reset" class="boton-limpiar" id="btn">Limpiar</button>
+                </div>
+            </form>
+
+        </section>
+<!--Inicio Footer-->
+    <footer class="pie_pagina">
+        <h1 class="titulo_encabezado_pie_de_pagina">AluraGeek</h1>
+        <p class="copyright">Yorman Urbina</p>
+        <p class="copyright">Alura Latam - 2024</p>
+        <div class="footer-logo-container">
+        
+        </div>
+    </footer>
+    <script src="js/controllers/main.js" type="module"></script>
+</body>
+
+</html>
