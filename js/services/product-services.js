@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:3001/productos"
+const apiUrl = "https://fake-api-rho-ten.vercel.app/productos"
 
 
 export const productList = () => {
